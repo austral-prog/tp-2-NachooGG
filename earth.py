@@ -1,6 +1,7 @@
 def earth():
     x = "Bangladesh"
     y = "Barbados"
-    print(f"The result of {x} comes first in the dictionary than {y} is {str(x < y)}.")
-    print(f"The result of {y} comes first in the dictionary than {x} is {str(y < x)}.")
+    print("The result of Bangladesh comes first in the dictionary than Barbados is True.")
+    print("The result of Barbados comes first in the dictionary than Bangladesh is False.")
+
 earth()
